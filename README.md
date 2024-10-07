@@ -28,8 +28,8 @@ find_library(PQXX_LIB pqxx)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lpqxx")
 
 #Libraries
-target_include_directories(chat PRIVATE ${BOOST_LIBRARY_INCLUDES} )
-target_link_libraries(chat
+target_include_directories(project PRIVATE ${BOOST_LIBRARY_INCLUDES} )
+target_link_libraries(project
         ${USED_LIBS}
         ${PQXX_LIB}
 )
