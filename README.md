@@ -1,7 +1,7 @@
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
 <div>Main platform is <i>macOS</i> operating system</div>
-<div>Database is PostgreSQL</div>
-<div>UNIT testing: gtest</div>
+<div>Database is PostgreSQL: https://www.postgresql.org</div>
+<div>UNIT testing: gtes: https://github.com/google/googletestt</div>
 For reports docx project uses DuckX library https://github.com/amiremohamadi/DuckX <br>
 DuckX requires: <br>
 <table> 
