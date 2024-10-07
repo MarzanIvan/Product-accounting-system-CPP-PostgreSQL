@@ -18,6 +18,20 @@
 </style>
 
 <hr>
+<table>
+  <tbody>
+    <tr>
+      <td style="border: none">Column One</td>
+      <td style="border: none">Column One</td>
+    </tr>
+    <tr>
+      <td style="border: none">Content of column one</td>
+      <td style="border: none">Content of column two</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
 
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
 <div>Main platform is <i>macOS</i> operating system</div>
