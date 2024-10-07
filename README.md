@@ -76,3 +76,33 @@ target_link_libraries(courseproject PRIVATE
     gtest gtest_main
 )
 ```
+
+<hr>
+<h4>Including DUCKX library</h4>
+
+```cmake
+###INCLUDING DuckX lib
+add_subdirectory(lib/DuckX-1.2.2/)
+# to link source files and include DuckX-1.2.2 src/ folder to search the files
+include_directories(lib/DuckX-1.2.2/include lib/DuckX-1.2.2/src)
+set(DUCKX lib/DuckX-1.2.2/build/libduckx.a)
+find_library(DUCKX_LIB duckx)
+#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -lduckx")
+
+
+### Duckx dependencies
+
+###INCLUDING pugixml lib
+add_subdirectory(lib/zip-0.3.2/)
+# to link source files and include zip-0.3.2 src/ folder to search the files
+include_directories(lib/zip-0.3.2/include lib/zip-0.3.2/src)
+set(zip lib/zip-0.3.2/build/libzip.a)
+find_library(zip_LIB zip)
+
+###INCLUDING pugixml lib
+add_subdirectory(lib/pugixml-1.14/)
+# to link source files and include pugixml-1.14 src/ folder to search the files
+include_directories(lib/pugixml-1.14/include lib/pugixml-1.14/src)
+set(pugixml lib/pugixml-1.14/build/libpugixml.a)
+find_library(pugixml_LIB pugixml)
+```
