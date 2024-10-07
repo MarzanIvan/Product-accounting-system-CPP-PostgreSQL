@@ -42,7 +42,7 @@ target_link_libraries(project
 <h4>Including Boost 1.85.0 library</h4>
 
 ```cmake
-#PQXX Postgresql library
+#Boost library
 FIND_PACKAGE(Boost 1.85.0 REQUIRED COMPONENTS  system thread regex)
 set(BOOST_INCLUDE_LIBRARIES thread filesystem system program_options asio date_time)
 set(BOOST_ENABLE_CMAKE ON)
@@ -52,4 +52,27 @@ LINK_DIRECTORIES(${Boost_LIBRARY_DIRS})
 
 #Libraries
 target_include_directories(project PRIVATE ${BOOST_LIBRARY_INCLUDES} )
+```
+
+<hr>
+<h4>Including gtest library</h4>
+
+  ```cmake
+  # set this flag when running coverage tests
+  set(CMAKE_CXX_FLAGS "--coverage")
+  # generate debug information
+  set(CMAKE_CXX_FLAGS "-g")
+  #----------------------------------------------------
+
+  add_subdirectory(lib)
+
+  # to link source files and include google test include/ folder to search the files
+  include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
+#after add_executable function
+target_link_libraries(courseproject PRIVATE
+    Qt${QT_VERSION_MAJOR}::Widgets
+    ${USED_LIBS}
+    ${PQXX_LIB}
+    gtest gtest_main
+)
 ```
