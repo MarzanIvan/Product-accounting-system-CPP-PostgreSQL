@@ -1,10 +1,4 @@
-<style>
-      
-   td, th {
-      border: none!important;
-   }
-      
-   </style>
+
 
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 
@@ -16,6 +10,13 @@
 </td>
   </tr>
 </table>
+
+<style>
+  table td {
+    border: none !important;
+  }
+</style>
+
 <hr>
 
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
