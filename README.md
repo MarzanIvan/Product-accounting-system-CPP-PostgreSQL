@@ -1,4 +1,12 @@
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
+
+<table style="width:100%">
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044" width="350"></td>
+    <td>Iternat shop</td>
+  </tr>
+</table>
+
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044" width="350">
 </p>
