@@ -1,8 +1,10 @@
-<style>
-td, th {
-   border: none!important;
-}
-</style>
+   <style>
+      
+   td, th {
+      border: none!important;
+   }
+      
+   </style>
 
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 
