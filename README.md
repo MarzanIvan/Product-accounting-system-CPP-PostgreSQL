@@ -1,16 +1,5 @@
-
-
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
-
-<table style="width:100%" border-collapse:collapse; cellspacing="0" cellpadding="0">
-  <tr>
-    <td>
-      <img src="https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044" width="350"></td>
-    <td>
-      Интернет-Магазин «KONTAKT»<br>Магазин в 🌐ДНР г. Енакиево<br>
-    </td>
-  </tr>
-</table>
+<img src="https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044" width="350">
 <hr>
 
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
