@@ -1,7 +1,7 @@
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 
 <p align="center">
-  <img src="(![IMG_4959]https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044)" width="350">
+  <img src="(https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044)" width="350">
 </p><hr>
 ![IMG_4959](https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044)
 
