@@ -1,6 +1,6 @@
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 <img src="https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044" width="350">
-<hr>
+<br><br>
 
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
 <div>Main platform is <i>macOS</i> operating system</div>
