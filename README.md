@@ -35,7 +35,7 @@ target_link_libraries(project
 )
 ```
 <hr>
-<h4>Including PQXX library</h4>
+<h4>Including Boost 1.85.0 library</h4>
 
 ```cmake
 #PQXX Postgresql library
