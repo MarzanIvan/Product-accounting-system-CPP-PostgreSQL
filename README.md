@@ -1,4 +1,10 @@
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
+
+<p align="center">
+  <img src="[your_relative_path_here](https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044)" width="350" title="hover text">
+</p><hr>
+![IMG_4959](https://github.com/user-attachments/assets/c2a456a1-3fbf-4820-9fe0-89b7f6532044)
+
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
 <div>Main platform is <i>macOS</i> operating system</div>
 <div>Database is PostgreSQL: https://www.postgresql.org</div>
