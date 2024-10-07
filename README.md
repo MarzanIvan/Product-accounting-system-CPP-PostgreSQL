@@ -1,4 +1,4 @@
-The project was created for shop https://vk.com/gadgetkontaktvk
+<h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 This is desktop application that use Qt community 6.7.2 Framework for macOS<br>
 <div>Main platform is <i>macOS</i> operating system</div>
 <div>Database is PostgreSQL: https://www.postgresql.org</div>
