@@ -64,7 +64,7 @@ target_include_directories(project PRIVATE ${BOOST_LIBRARY_INCLUDES} )
   set(CMAKE_CXX_FLAGS "-g")
   #----------------------------------------------------
 
-  add_subdirectory(lib)
+  add_subdirectory(lib/gtest)
 
   # to link source files and include google test include/ folder to search the files
   include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
