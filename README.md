@@ -1,3 +1,9 @@
+<style>
+td, th {
+   border: none!important;
+}
+</style>
+
 <h3>The project was created for shop https://vk.com/gadgetkontaktvk</h3>
 
 <table style="width:100%" border-collapse:collapse; cellspacing="0" cellpadding="0">
