@@ -106,3 +106,33 @@ include_directories(lib/pugixml-1.14/include lib/pugixml-1.14/src)
 set(pugixml lib/pugixml-1.14/build/libpugixml.a)
 find_library(pugixml_LIB pugixml)
 ```
+
+
+<hr>
+<h4>Including Boost Logging library</h4>
+
+```cmake
+FIND_PACKAGE(Boost 1.85.0 REQUIRED COMPONENTS  system filesystem chrono atomic log   thread regex)
+set(BOOST_INCLUDE_LIBRARIES thread filesystem log atomic chrono system program_options asio date_time)
+SET(USED_LIBS ${Boost_SYSTEM_LIBRARY} ${Boost_ATOMIC_LIBRARY} ${Boost_CHRONO_LIBRARY}  ${Boost_THREAD_LIBRARY} ${Boost_FILESYSTEM_LIBRARY} ${Boost_LOG_LIBRARY}  ${Boost_REGEX_LIBRARY})
+set(BOOST_ENABLE_CMAKE ON)
+
+target_link_libraries(courseproject PRIVATE
+    Qt${QT_VERSION_MAJOR}::Widgets
+    ${USED_LIBS}
+    ${PQXX_LIB}
+    gtest gtest_main
+    duckx
+    c++abi pthread
+            /opt/homebrew/lib/libboost_system-mt.dylib
+            /opt/homebrew/lib/libboost_thread-mt.dylib
+            /opt/homebrew/lib/libboost_regex-mt.dylib
+            /opt/homebrew/lib/libboost_chrono-mt.dylib
+            /opt/homebrew/lib/libboost_atomic-mt.dylib
+            /opt/homebrew/lib/libboost_log-mt.dylib
+            /opt/homebrew/lib/libboost_log_setup-mt.dylib
+            /opt/homebrew/lib/libboost_filesystem-mt.dylib
+)
+
+
+```
